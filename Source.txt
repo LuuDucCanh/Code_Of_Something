@@ -9,9 +9,13 @@ int main()
 	{
 		cout << "So Lon Hon La " << a << endl;
 	}
-	else
+	else if (a < b)
 	{
 		cout << "So Lon Hon La " << b << endl;
+	}
+	else
+	{
+		cout << "2 So Bang Nhau " << endl;
 	}
 	system("pause");
 	return 0;
