@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int a, b;
+	cin >> a;
+	cin >> b;
+	if (a > b)
+	{
+		cout << "So Lon Hon La " << a << endl;
+	}
+	else
+	{
+		cout << "So Lon Hon La " << b << endl;
+	}
+	system("pause");
+	return 0;
+}
